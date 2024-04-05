@@ -174,7 +174,7 @@ img {
   gap: 12px;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .connection-list {
     flex-direction: row;
     gap: 40px;
@@ -321,7 +321,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .hero-title {
     width: 496px;
     margin: 0 auto 48px;
@@ -377,7 +377,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .strategy-list {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -395,7 +395,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .strategy-item {
   }
 }
@@ -405,7 +405,7 @@ img {
   margin-bottom: 8px;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .strategy-wrapper {
     display: flex;
     justify-content: center;
@@ -434,7 +434,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .strategy-desc {
     font-weight: 500;
     font-size: 20px;
@@ -450,7 +450,7 @@ img {
   color: #434455;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .strategy-text {
     font-weight: 400;
   }
@@ -474,7 +474,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .team .container {
     padding: 0 15px;
   }
@@ -504,7 +504,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .team-list {
     gap: 24px;
     flex-wrap: nowrap;
@@ -524,7 +524,7 @@ img {
     width: calc((100% - 24px) / 2);
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .team-item {
     width: calc((100% - 24px * 3) / 4);
   }
@@ -617,7 +617,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .portfolio-list {
     flex-wrap: wrap;
     column-gap: 24px;
@@ -638,7 +638,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .portfolio-item {
     width: calc((100% - 48px) / 3);
   }
@@ -690,7 +690,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .portfolio-item-cont {
   }
 }
@@ -732,7 +732,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer .container {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -755,7 +755,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-logo {
     margin-right: 120px;
     display: inline;
@@ -780,7 +780,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-link {
   }
 }
@@ -817,7 +817,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-cont {
     display: block;
     margin-left: 0;
@@ -879,7 +879,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-email-cont {
     margin-left: 80px;
     display: block;
@@ -909,7 +909,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-email-form {
   }
 }
@@ -941,7 +941,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .footer-email-box {
     width: 264px;
   }
@@ -1219,15 +1219,15 @@ img {
   inset: 0;
   background-color: #fff;
 
-  /* transition: 300ms ease-in;
+  transition: 300ms ease-in;
   transition-property: opacity;
-  opacity: 0; */
+  opacity: 0;
 }
 
-.mobile-menu .is-open {
-  /* opacity: 1;
+.mobile-menu.is-open {
+  opacity: 1;
   transition-delay: 300ms;
-  transition-timing-function: ease-out; */
+  transition-timing-function: ease-out;
 }
 
 @media only screen and (min-width: 768px) {
