@@ -1222,12 +1222,14 @@ img {
   transition: 300ms ease-in;
   transition-property: opacity;
   opacity: 0;
+  visibility: hidden;
 }
 
 .mobile-menu.is-open {
   opacity: 1;
   transition-delay: 300ms;
   transition-timing-function: ease-out;
+  visibility: visible;
 }
 
 @media only screen and (min-width: 768px) {
